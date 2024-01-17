@@ -1,0 +1,11 @@
+When x = 12455 the time is 0.6730051040649414 seconds
+When x = 100000 the time is 45.763999223709106 seconds
+When x = 1000 the time is 0.0050008296966552734 seconds
+When x = 1000 the time is 0.0050013065338134766 seconds
+When x = 1999 the time is 0.016003847122192383 seconds
+When x = 1000 the time is 0.004001140594482422 seconds
+When x = 1000 the time is 0.004000663757324219 seconds
+When x = 1999 the time is 0.01600503921508789 seconds
+When x = 2999 the time is 0.037007808685302734 seconds
+When x = 4999 the time is 0.10402369499206543 seconds
+When x = 12999 the time is 0.7325682640075684 seconds

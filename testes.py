@@ -1,6 +1,3 @@
-import time
-start_time = time.time()
-
 
 def is_prime(x):
     if x == 3 or x == 2:
@@ -12,16 +9,15 @@ def is_prime(x):
     z = x
     while True:
         a = z % y
-        y -= 1
         if y == 1:
             return True
         if a == 0:
             return False
-
-
+        y -= 2
+        if y <= 0:
+            return False
 primes = []
-x = 12999
-place_holder_x = x
+x = 100
 
 while True:
     if x == 1:
@@ -30,11 +26,4 @@ while True:
         primes.append(x)
     x -= 1
 
-
-timer = 'prime_timer.txt'
-
-print(len(primes))
-
-with open(timer, 'a', encoding='utf8') as arquivo:
-    arquivo.write(f"When x = {place_holder_x} the time is %s seconds\n" %
-                  (time.time() - start_time))
+print(primes)
